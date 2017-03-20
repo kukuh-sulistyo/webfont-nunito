@@ -1,0 +1,27 @@
+// NUNITO, Sans-Serif
+// --
+
+// import @font-face mixins
+@import "mixins";
+
+// import font variants
+@import "200";
+@import "200italic";
+@import "300";
+@import "300italic";
+@import "400";
+@import "400italic";
+@import "600";
+@import "600italic";
+@import "700";
+@import "700italic";
+@import "800";
+@import "800italic";
+@import "900";
+@import "900italic";
+
+// @include font-face("Nunito", "fonts/nunito-v8-latin-300", normal, 300);
+// @include font-face("Nunito", "fonts/nunito-v8-latin-regular", normal, normal);
+// @include font-face("Nunito", "fonts/nunito-v8-latin-600", normal, 600);
+// @include font-face("Nunito", "fonts/nunito-v8-latin-700", normal, 700);
+// @include font-face("Nunito", "fonts/nunito-v8-latin-800", normal, 800);
