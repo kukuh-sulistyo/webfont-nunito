@@ -1,12 +1,12 @@
 @mixin font-face($font-family, $font-src, $font-style: normal, $font-weight: normal) {
 	@font-face {
 		font-family: $font-family;
-		src: url('#{$font-src}.eot'); /* IE9 Compat Modes */
-		src: url('#{$font-src}.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-		   	 url('#{$font-src}.woff2') format('woff2'), /* Super Modern Browsers */
-		     url('#{$font-src}.woff') format('woff'), /* Pretty Modern Browsers */
-		     url('#{$font-src}.ttf') format('truetype'), /* Safari, Android, iOS */
-		     url('#{$font-src}.svg#svgFontName') format('svg'); /* Legacy iOS */
+		src: url('../#{$font-src}.eot'); /* IE9 Compat Modes */
+		src: url('../#{$font-src}.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		   	 url('../#{$font-src}.woff2') format('woff2'), /* Super Modern Browsers */
+		     url('../#{$font-src}.woff') format('woff'), /* Pretty Modern Browsers */
+		     url('../#{$font-src}.ttf') format('truetype'), /* Safari, Android, iOS */
+		     url('../#{$font-src}.svg#svgFontName') format('svg'); /* Legacy iOS */
 		font-style: $font-style;
 		font-weight: $font-weight;
 	}
