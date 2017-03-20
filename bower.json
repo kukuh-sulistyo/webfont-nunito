@@ -3,13 +3,15 @@
   "authors": [
     "Kukuh Aji Sulistyo <sulistyo.kukuh@gmail.com>"
   ],
-  "description": "webfont sass kit for Nunito font",
-  "main": "",
+  "description": "@font-face kit for Nunito font",
+  "main": [
+    "scss/webfont-nunito.scss"
+  ],
   "keywords": [
     "webfont",
     "nunito"
   ],
-  "license": "MIT",
+  "license": "",
   "homepage": "",
   "private": true,
   "ignore": [
