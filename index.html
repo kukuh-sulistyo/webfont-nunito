@@ -2,13 +2,32 @@
 <html>
 <head>
 	<title>Nunito Webfont</title>
+	<link rel="stylesheet" type="text/css" href="css/webfont-nunito.min.css">
 	<style type="text/css">
-		
+		body {
+			font-family: "Nunito", sans-serif;
+		}
+		.container {
+			max-width: 768px;
+			width: 50%;
+			margin: 0 auto;
+		}
+		section {
+			padding: .5rem 1rem;
+			border-radius: 4px;
+			background: #efefef;
+		}
+		section .title {
+			font-style: italic;
+		}
 	</style>
 </head>
 <body>
 	<div class="container">
-		<p>Pack my box with five dozen liquor jugs</p>
+		<section>
+			<p class="title">font 200</p>
+			<p>Pack my box with five dozen liquor jugs</p>
+		</section>
 	</div>
 </body>
 </html>
